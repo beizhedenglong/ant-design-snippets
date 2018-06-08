@@ -1,0 +1,405 @@
+{
+  "Antd default button": {
+    "prefix":"a-button",
+    "description": "Antd default button",
+    "body":[
+      "<Button>$0</Button>"
+    ]
+  },
+  "Antd primary button": {
+    "prefix":"a-button-primary",
+    "description": "Antd primary button",
+    "body":[
+      "<Button type=\"primary\">$0</Button>"
+    ]
+  },
+  "Antd dashed button": {
+    "prefix":"a-button-dashed",
+    "description": "Antd dashed button",
+    "body":[
+      "<Button type=\"dashed\">$0</Button>"
+    ]
+  },
+  "Antd danger button": {
+    "prefix":"a-button-danger",
+    "description": "Antd danger button",
+    "body":[
+      "<Button type=\"danger\">$0</Button>"
+    ]
+  },
+  "Antd ghost button": {
+    "prefix":"a-button-ghost",
+    "description": "Antd ghost button",
+    "body":[
+      "<Button ghost>$0</Button>"
+    ]
+  },
+  "Antd search button": {
+    "prefix":"a-button-search",
+    "description": "Antd search button",
+    "body":[
+      "<Button icon=\"search\">$0</Button>"
+    ]
+  },
+  "Antd disabled button": {
+    "prefix":"a-button-disabled",
+    "description": "Antd disabled button",
+    "body":[
+      "<Button disabled>$0</Button>"
+    ]
+  },
+  "Antd loading button": {
+    "prefix":"a-button-loading",
+    "description": "Antd loading button",
+    "body":[
+      "<Button loading={$1}>$0</Button>"
+    ]
+  },
+  "Antd button group": {
+    "prefix":"a-button-group",
+    "description": "Antd button group",
+    "body":[
+      "<Button.Group value={$0}>",
+      "  <Button value={$1}>$2</Button>",
+      "  <Button value={$3}>$4</Button>",
+      "</Button.Group>"
+    ]
+  },
+  "Antd dropdown button": {
+    "prefix":"a-button-dropdown",
+    "description": "Antd dropdown button",
+    "body":[
+      "<Dropdown overlay={$1}>",
+      "  <Button>",
+      "    $0<Icon type=\"down\" />",
+      "  </Button>",
+      "</Dropdown>"
+    ]
+  },
+  "Antd row": {
+    "prefix":"a-row",
+    "description": "Antd basic grid",
+    "body":[
+      "<Row>",
+      "  <Col span={$1}>$2</Col>",
+      "  <Col span={$3}>$4</Col>",
+      "</Row>"
+    ]
+  },
+  "Antd layout": {
+    "prefix":"a-layout",
+    "description": "Antd basic layout",
+    "body":[
+      "<Layout>",
+      "  <Header>$1</Header>",
+      "  <Content>$2</Content>",
+      "  <Footer>$3</Footer>",
+      "</Layout>"
+    ]  
+  },
+  "Antd breadcrumb": {
+    "prefix":"a-breadcrumb",
+    "description": "Antd breadcrumb",
+    "body":[
+      "<Breadcrumb>",
+      "  <Breadcrumb.Item>$1</Breadcrumb.Item>",
+      "  <Breadcrumb.Item>$2</Breadcrumb.Item>",
+      "</Breadcrumb>"
+    ]  
+  },
+  "Antd menu": {
+    "prefix":"a-menu",
+    "description": "Antd menu",
+    "body":[
+      "<Menu>",
+      "  <Menu.Item>$1</Menu.Item>",
+      "  <Menu.Item>$2</Menu.Item>",
+      "</Menu>"
+    ]  
+  },
+  "Antd steps": {
+    "prefix":"a-steps",
+    "description": "Antd steps",
+    "body":[
+      "<Steps current={$1}>",
+      "  <Steps.Step title=\"\" description=\"\" />",
+      "  <Steps.Step title=\"\" description=\"\" />",
+      "  <Steps.Step title=\"\" description=\"\" />",
+      "</Steps>"
+    ]  
+  },
+  "Antd checkbox": {
+    "prefix":"a-checkbox",
+    "description": "Antd checkbox",
+    "body":[
+      "<Checkbox >$1</Checkbox>"
+    ]
+  },
+  "Antd checkbox group": {
+    "prefix":"a-checkbox-group",
+    "description": "Antd checkbox group",
+    "body":[
+      "<Checkbox.Group ",
+      "  onChange={$1}",
+      "  value={$2}",
+      ">",
+      "  <Checkbox value=\"$3\">$4</Checkbox>",
+      "  <Checkbox value=\"$5\">$6</Checkbox>",
+      "</Checkbox.Group>"
+    ]
+  },
+  "Antd disabled checkbox": {
+    "prefix":"a-checkbox-disabled",
+    "description": "Antd Antd disabled checkbox",
+    "body":[
+      "<Checkbox disabled>$1</Checkbox>"
+    ]
+  },
+  "Antd form": {
+    "prefix":"a-form",
+    "description": "Antd form",
+    "body":[
+      "<Form layout=\"inline\" onSubmit={$1}>",
+      "  <FormItem>",
+      "    $2",
+      "  </FormItem>",
+      "  <FormItem>",
+      "    <Button",
+      "      type=\"primary\"",
+      "      htmlType=\"submit\"",
+      "    >",
+      "      $3",
+      "    </Button>",
+      "  </FormItem>",
+      "</Form>"
+    ]
+  },
+  "Antd input": {
+    "prefix":"a-input",
+    "description": "Antd input",
+    "body":[
+      "<Input placeholder=\"$1\" />"
+    ]
+  },
+  "Antd pre tab input": {
+    "prefix":"a-input-pre",
+    "description": "Antd pre tab input",
+    "body":[
+      "<Input addonBefore={$2} placeholder=\"$1\" />"
+    ]
+  },
+  "Antd post tab input": {
+    "prefix":"a-input-post",
+    "description": "Antd Antd post tab input",
+    "body":[
+      "<Input addonAfter={$2} placeholder=\"$1\" />"
+    ]
+  },
+  "Antd input search": {
+    "prefix":"a-input-search",
+    "description": "Antd input search",
+    "body":[
+      "<Input.Search",
+      "  placeholder=\"\"",
+      "  onSearch={$1}",
+      "  enterButton",
+      "/>"
+    ]
+  },
+  "Antd input textarea": {
+    "prefix":"a-input-textarea",
+    "description": "Antd input textarea",
+    "body":[
+      "<Input.TextArea rows={$1} />"
+    ]
+  },
+  "Antd radio": {
+    "prefix":"a-radio",
+    "description": "Antd radio",
+    "body":[
+      "<Radio>$1</Radio>"
+    ]
+  },
+  "Antd disabled radio": {
+    "prefix":"a-radio-disabled",
+    "description": "Antd Antd disabled radio",
+    "body":[
+      "<Radio disabled >$1</Radio>"
+    ]
+  },
+  "Antd radio group": {
+    "prefix":"a-radio-group",
+    "description": "Antd radio group ",
+    "body":[
+      "<Radio.Group name=\"\" defaultValue={$1}>",
+      "  <Radio value={$2}>$3</Radio>",
+      "  <Radio value={$4}>$5</Radio>",
+      "</Radio.Group>"
+    ]
+  },
+  "Antd radio button group": {
+    "prefix":"a-radio-button-group",
+    "description": "Antd radio button group",
+    "body":[
+      "<Radio.Group onChange={$1} value={$2}>",
+      "  <Radio.Button value=\"$3\">$4</Radio.Button>",
+      "  <Radio.Button value=\"$5\">$6</Radio.Button>",
+      "</Radio.Group>"
+    ]
+  },
+  "Antd select": {
+    "prefix":"a-select",
+    "description": "Antd select",
+    "body":[
+      "<Select value={$1} onChange={$2}>",
+      "  <Option value=\"$3\">$4</Option>",
+      "  <Option value=\"$5\">$6</Option>",
+      "</Select>"
+    ]
+  },
+  "Antd treeSelect": {
+    "prefix":"a-treeSelect",
+    "description": "Antd treeSelect",
+    "body":[
+      "<TreeSelect",
+      "  showSearch",
+      "  value={$1}",
+      "  placeholder=\"\"",
+      "  onChange={$2}",
+      ">",
+      "  <TreeSelect.TreeNode value=\"$3\" title=\"$4\" key=\"$5\">",
+      "    <TreeSelect.TreeNode value=\"$6\" title=\"$7\" key=\"$8\" />",
+      "  </TreeSelect.TreeNode>",
+      "</TreeSelect>"
+    ]
+  },
+  "Antd collapse": {
+    "prefix":"a-collapse",
+    "description": "Antd collapse",
+    "body":[
+      "<Collapse activeKey={$1} onChange={$2}>",
+      "  <Collapse.Panel header=\"$3\" key=\"$4\">",
+      "  </Collapse.Panel>",
+      "  <Collapse.Panel header=\"$5\" key=\"$6\">",
+      "  </Collapse.Panel>",
+      "</Collapse>"
+    ]
+  },
+  "Antd tooltip": {
+    "prefix":"a-tooltip",
+    "description": "Antd tooltip",
+    "body":[
+      "<Tooltip placement=\"$1\" title=\"$2\">",
+      "  $3",
+      "</Tooltip>"
+    ]
+  },
+  "Antd timeline": {
+    "prefix":"a-timeline",
+    "description": "Antd timeline",
+    "body":[
+      "<Timeline>",
+      "  <Timeline.Item>$1</Timeline.Item>",
+      "  <Timeline.Item>$2</Timeline.Item>",
+      "</Timeline>"
+    ]
+  },
+  "Antd tabs": {
+    "prefix":"a-tabs",
+    "description": "Antd tabs",
+    "body":[
+      "<Tabs activeKey=\"$1\" onChange={$2}>",
+      "  <Tabs.TabPane tab=\"$3\" key=\"$4\">$5</TabPane>",
+      "  <Tabs.TabPane tab=\"$6\" key=\"$7\">$8</TabPane>",
+      "</Tabs>"
+    ]
+  },
+  "Antd table": {
+    "prefix":"a-table",
+    "description": "Antd table",
+    "body":[
+      "<Table",
+      "  columns={$1}",
+      "  dataSource={$2}",
+      "/>"
+    ]
+  },
+  "Antd table columns": {
+    "prefix":"a-table-columns",
+    "description": "Antd table columns",
+    "body":[
+      "const columns = [",
+      "  {",
+      "    title: '',",
+      "    dataIndex: '',",
+      "    key: '',",
+      "    render: () => {},",
+      "  },",
+      "  {",
+      "    title: '',",
+      "    dataIndex: '',",
+      "    key: '',",
+      "    render: () => {},",
+      "  },",
+      "]"
+    ]
+  },
+  "Antd table rowSelection": {
+    "prefix":"a-table-rowSelection",
+    "description": "Antd table rowSelection",
+    "body":[
+      "const rowSelection = {",
+      "  type: 'checkbox',",
+      "  onChange: (selectedRowKeys, selectedRows) => {$1}",
+      "}"
+    ]
+  },
+  "Antd ": {
+    "prefix":"a-",
+    "description": "Antd ",
+    "body":[]
+  },
+  "Antd info message": {
+    "prefix":"a-message",
+    "description": "Antd info message",
+    "body":[
+      "message.info($1)"
+    ]
+  },
+  "Antd error message": {
+    "prefix":"a-message-error",
+    "description": "Antd error message",
+    "body":[
+      "message.error($1)"
+    ]
+  },
+  "Antd warning message": {
+    "prefix":"a-message-warning",
+    "description": "Antd warning message",
+    "body":[
+      "message.warning($1)"
+    ]
+  },
+  "Antd success message": {
+    "prefix":"a-message-success",
+    "description": "Antd success message",
+    "body":[
+      "message.success($1)"
+    ]
+  },
+  "Antd popconfirm": {
+    "prefix":"a-popconfirm",
+    "description": "Antd popconfirm",
+    "body":[
+      "<Popconfirm ",
+      "  title=\"$1\"",
+      "  onConfirm={$2}",
+      "  onCancel={$3}",
+      "  okText=\"$4\"",
+      "  cancelText=\"$5\"",
+      ">",
+      "  $6",
+      "</Popconfirm>"
+    ]
+  }
+}
