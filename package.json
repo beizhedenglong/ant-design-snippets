@@ -2,7 +2,7 @@
     "name": "ant-design-snippets",
     "displayName": "ant design snippets",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "beizhedenglong",
     "icon": "imgs/icon.png",
     "repository": {
@@ -10,7 +10,7 @@
       "url": "https://github.com/beizhedenglong/ant-design-snippets.git"
     },
     "engines": {
-        "vscode": "^1.24.0"
+        "vscode": "^1.0.0"
     },
     "categories": [
         "Snippets"
