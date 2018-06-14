@@ -159,16 +159,16 @@
     "prefix":"a-form",
     "description": "Antd form",
     "body":[
-      "<Form layout=\"inline\" onSubmit={$1}>",
+      "<Form layout=\"${1|inline,vertical,horizontal|}\" onSubmit={$2}>",
       "  <FormItem>",
-      "    $2",
+      "    $3",
       "  </FormItem>",
       "  <FormItem>",
       "    <Button",
       "      type=\"primary\"",
       "      htmlType=\"submit\"",
       "    >",
-      "      $3",
+      "      $4",
       "    </Button>",
       "  </FormItem>",
       "</Form>"
@@ -321,6 +321,7 @@
       "<Table",
       "  columns={$1}",
       "  dataSource={$2}",
+      "  rowKey=\"$3\"",
       "/>"
     ]
   },
@@ -400,6 +401,13 @@
       ">",
       "  $6",
       "</Popconfirm>"
+    ]
+  },
+  "Antd icon": {
+    "prefix":"a-icon",
+    "description": "Antd icon",
+    "body":[
+      "<Icon type=\"$1\" />"
     ]
   }
 }
